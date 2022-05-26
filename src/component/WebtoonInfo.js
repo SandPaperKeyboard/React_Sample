@@ -3,9 +3,9 @@ import React from 'react';
 const WebtoonInfo = (props) => {
     
     const webtoon = props.webtoon;
-
+    // webtoon.thumbnail은 '썸네일' webtoon json의 thumbnail을 가져온다.
     return (
-        <div className="wrap_webtoon">
+        <div className="wrap_webtoon"> 
             <img src={webtoon.thumbnail} className="img_webtoon" alt={webtoon.title} />
             <div className="info_webtoon">
                 <strong className="tit_webtoonb">{webtoon.title}</strong>

@@ -4,7 +4,7 @@ import axios from 'axios';
 import Header from "../component/Header";
 import Gnb from "../component/Gnb";
 import Footer from "../component/Footer";
-import WebtoonList from "../component/WebtoonList"
+import WebtoonList from "../component/WebtoonList";
 
 class Main extends Component {
 

@@ -28,6 +28,7 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 .gnb li:nth-child(2) {width:33.4%}
 .gnb .tab_day {display:block;padding:6px 0;text-align:center;color:#fff}
 .gnb .tab_day.on {background-color:#8e2f23}
+.gnb .myportal {display:block;padding:6px 0;text-align:center;color:#fff;margin:auto}
 
 .list_webtoon li {border-top:1px solid #ccc}
 .list_webtoon .link_webtoon {display:block;overflow:hidden}
