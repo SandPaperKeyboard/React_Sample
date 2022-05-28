@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
     <div className="footer">
-        © My Company Name.
+        © My Name is HANVIS.
     </div>
 )
 

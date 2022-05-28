@@ -18,8 +18,6 @@ class App extends Component
           <Route exact path="/webtoon/:webtoonId" component={WebtoonHome}></Route>
           <Route exact path="/viewer/:episodeId" component={Viewer}></Route>
           
-
-          
           {/* <Route exact path="/myportal" component = {() => {
             window.open('https://my.hnu.kr/html/main/sso.html', '_blank');
             return null;

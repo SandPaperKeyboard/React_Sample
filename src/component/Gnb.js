@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from "react-router-dom";
 
 // 한남대학교 마이포탈
 const handleClick1 = () => {
@@ -14,10 +13,9 @@ const handleClick3 = () => {
     window.open("http://www.hannam.ac.kr/kor/main/","_blank");
 }
 
-// MY-Portal을 클릭하면 to= "/?day=mon" 경로로 이동하고, ?day=mon 컴포넌트 내용을 확인할 수 있다.
-// day의 속성인 mon일 때
 const Gnb = (props) => (
   <ul className="gnb">
+    
     <li>
       <button onClick={handleClick1} className="myportal"> MY-Portal </button>
     </li>
@@ -29,6 +27,7 @@ const Gnb = (props) => (
     <li>
       <button onClick={handleClick3} className="myportal"> 한남대학교 </button>
     </li>
+
   </ul>
 );
 
